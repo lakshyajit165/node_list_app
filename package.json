@@ -1,0 +1,21 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "Shopping list app built with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "LK",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
